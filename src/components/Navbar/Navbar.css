@@ -1,0 +1,25 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.nav-options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-option {
+    margin-left: 10px;
+    margin-right: 10px;
+}
