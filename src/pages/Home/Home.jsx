@@ -22,9 +22,8 @@ const Home = () => {
           </div>
           <div className="home-section">
             Since completing university, I've moved to{' '}
-            <TextLink link="https://www.youtube.com/watch?v=UumgHjyh9A0&ab_channel=InternetThings">Chicago</TextLink>{' '}
-            (the greatest city in the world). In the city I work and pursue my two greatest passions: reading and
-            travelling.
+            <TextLink link="https://en.wikipedia.org/wiki/Chicago">Chicago</TextLink> (the greatest city in the world).
+            In the city I work and pursue my two greatest passions: reading and travelling.
           </div>
         </div>
         <div className="home-portrait">

@@ -1,23 +1,30 @@
-import './Navbar.css';
 import { useNavigate } from 'react-router';
-
-const options = ['snippits', 'books'];
+import './Navbar.css';
 
 const Navbar = ({ props }) => {
   let navigate = useNavigate();
 
+  const options = [
+    {
+      label: 'snippits',
+      onClick: () => navigate('/snippits'),
+    },
+    { label: 'books', onClick: () => navigate('/books') },
+    { label: 'resume', onClick: () => window.open('/official_resume.pdf') },
+  ];
+
   return (
     <div className="nav-container">
-      <div className="nav-header" onClick={() => navigate('/')}>
+      <a className="nav-header" onClick={() => navigate('/')}>
         [<span>Home</span>]
-      </div>
+      </a>
       <div className="nav-options">
         {
           // TODO: Add a folder with images and randomly order them, then choose an image for every nav option.
           options.map((option) => (
-            <div className="nav-option" key={option} onClick={() => navigate(`/${option}`)}>
-              {option}
-            </div>
+            <a className="nav-option" key={option.label} onClick={option.onClick}>
+              {option.label}
+            </a>
           ))
         }
       </div>

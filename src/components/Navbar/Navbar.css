@@ -14,6 +14,7 @@
 
 .nav-header span:hover {
     text-decoration: underline;
+    cursor: url('/space.cur'), auto;
 }
 
 .nav-options {
@@ -22,6 +23,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
 .nav-option {
@@ -32,4 +34,5 @@
 
 .nav-option:hover {
     text-decoration: underline;
+    cursor: url('/space.cur'), auto;
 }
