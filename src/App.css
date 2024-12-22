@@ -1,0 +1,16 @@
+#root {
+  margin-left: 5%;
+  margin-right: 5%;
+  
+  /* Change the font for the whole page here */
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.navbar-wrapper {
+  margin-bottom: 20px;
+}
+
+.content-wrapper {
+  margin-left: 15%;
+  margin-right: 15%;
+}

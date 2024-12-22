@@ -8,7 +8,12 @@
 
 .nav-header {
     font-size: x-large;
-    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: .5px;
+}
+
+.nav-header span:hover {
+    text-decoration: underline;
 }
 
 .nav-options {
@@ -22,4 +27,8 @@
 .nav-option {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.nav-option:hover {
+    text-decoration: underline;
 }
