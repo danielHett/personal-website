@@ -1,7 +1,7 @@
 import './Navbar.css';
 import { useNavigate } from 'react-router';
 
-const options = ['projects', 'articles'];
+const options = ['snippits', 'books'];
 
 const Navbar = ({ props }) => {
   let navigate = useNavigate();
@@ -9,7 +9,7 @@ const Navbar = ({ props }) => {
   return (
     <div className="nav-container">
       <div className="nav-header" onClick={() => navigate('/')}>
-        [<span>Daniel Hettinger</span>]
+        [<span>Home</span>]
       </div>
       <div className="nav-options">
         {
