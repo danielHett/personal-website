@@ -1,4 +1,4 @@
-import TextLink from '../TextLink/TextLink.jsx';
+import TextLink from '../../components/TextLink/TextLink.jsx';
 import './Home.css';
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
             Occasionally, I build UIs using React.
           </div>
           <div className="home-section">
-            I grew up in Champaign (the better half of Champaign-Urbana), which is where I also happened to attend the{' '}
+            I grew up in Champaign, which is where I also happened to attend the{' '}
             <TextLink link="https://www.usnews.com/best-graduate-schools/top-science-schools/computer-science-rankings?name=University%20of%20Illinois&_sort=rank-asc">
               University of Illinois
             </TextLink>
@@ -28,7 +28,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home-portrait">
-          <img src="/me.jpeg" alt="this is me" width="300" height="300" />
+          <img src="/me.jpg" alt="this is me" width="300" height="300" />
         </div>
       </div>
     </div>

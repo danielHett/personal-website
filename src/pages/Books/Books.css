@@ -1,0 +1,35 @@
+.books-book-chips {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.book-chip {
+    padding: 10px;
+    
+    border-style: solid;
+    border-radius: 2px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.book-chip-star {
+    font-size: 2em;
+}
+
+.book-chip-lang {
+    font-size: 1.5em;
+}
+
+.book-chip-title {
+    font-size: 1.4em;
+}
+
+.book-chip-author {
+    font-size: 1.1em;
+}
