@@ -5,12 +5,11 @@ const Navbar = ({ props }) => {
   let navigate = useNavigate();
 
   const options = [
-    {
-      label: 'snippits',
-      onClick: () => navigate('/snippits'),
-    },
+    // { label: 'snippits', onClick: () => navigate('/snippits') },
     { label: 'books', onClick: () => navigate('/books') },
     { label: 'resume', onClick: () => window.open('/official_resume.pdf') },
+    { label: 'linkedin', onClick: () => window.open('https://www.linkedin.com/in/daniel-hettinger/') },
+    { label: 'github', onClick: () => window.open('https://github.com/danielHett') },
   ];
 
   return (
