@@ -6,5 +6,6 @@
     { "title": "The Shining", "author": "Stephen King", "isFavorite": false, "language": "EN", "coverLink": "https://pictures.abebooks.com/isbn/9780345806789-us-300.jpg" },
     { "title": "A Prayer for Owen Meany", "author": "John Irving", "isFavorite": false, "language": "EN", "coverLink": "https://pictures.abebooks.com/isbn/9782020309110-us-300.jpg" },
     { "title": "The Grapes of Wrath", "author": "John Steinbeck", "isFavorite": true, "language": "EN", "coverLink": "https://pictures.abebooks.com/isbn/9780143039433-us-300.jpg" },
-    { "title": "East of Eden", "author": "John Steinbeck", "isFavorite": false, "language": "EN", "coverLink": "https://pictures.abebooks.com/isbn/9780140186390-us-300.jpg" }
+    { "title": "East of Eden", "author": "John Steinbeck", "isFavorite": false, "language": "EN", "coverLink": "https://pictures.abebooks.com/isbn/9780140186390-us-300.jpg" },
+    { "title": "The Alchemist", "author": "Paulo Coelho", "isFavorite": false, "language": "EN", "coverLink": "https://pictures.abebooks.com/isbn/9780062315007-us-300.jpg" }
 ]

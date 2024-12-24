@@ -21,6 +21,11 @@
     width: 10em;
     
     border: solid;
+    border-width: 2px;
+}
+
+.book-chip:hover .book-chip-cover {
+    border-width: 3px;
 }
 
 .book-chip-other-data {
