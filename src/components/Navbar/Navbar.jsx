@@ -5,7 +5,7 @@ const Navbar = ({ props }) => {
   let navigate = useNavigate();
 
   const options = [
-    // { label: 'snippits', onClick: () => navigate('/snippits') },
+    { label: 'articles', onClick: () => navigate('/articles') },
     { label: 'books', onClick: () => navigate('/books') },
     { label: 'resume', onClick: () => window.open('/official_resume.pdf') },
     { label: 'linkedin', onClick: () => window.open('https://www.linkedin.com/in/daniel-hettinger/') },
