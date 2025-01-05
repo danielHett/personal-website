@@ -1,0 +1,20 @@
+.archived_articles_list-header {
+    font-size: 2.4em;
+    font-weight: bold;
+    margin-bottom: 1.2em;
+}
+
+.archived_articles_article-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.archived_articles_publish-date {
+    font-size: 1.2em;
+    color: #a6ada8;
+}
+
+.archived_articles_title {
+    font-size: 2.0em;
+}

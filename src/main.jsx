@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router';
 import App from './App.jsx';
 import Home from './pages/Home/Home.jsx';
 import Books from './pages/Books/Books.jsx';
-import Articles from './pages/Articles/Articles.jsx';
+import ArchivedArticles from './pages/ArchivedArticles/ArchivedArticles.jsx';
 import Article from './pages/Article/Article.jsx';
 
 createRoot(document.getElementById('root')).render(
@@ -13,9 +13,8 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="/" element={<Home />} />
-          <Route path="/articles" element={<Articles />}>
-            <Route path="/articles/:article" />
-          </Route>
+          <Route path="/articles" element={<ArchivedArticles />} />
+          <Route path="/articles/:articleKey" element={<Article />} />
           <Route path="/books" element={<Books />} />
         </Route>
       </Routes>

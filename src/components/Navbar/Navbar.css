@@ -34,5 +34,4 @@
 
 .nav-option:hover {
     text-decoration: underline;
-    cursor: url('/space.cur'), auto;
 }

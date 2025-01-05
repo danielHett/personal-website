@@ -27,3 +27,7 @@ html {
 a:hover {
   cursor: url('/space.cur'), auto;
 }
+
+.button:hover {
+  text-decoration: underline;
+}

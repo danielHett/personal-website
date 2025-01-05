@@ -4,9 +4,9 @@ import './Home.css';
 const Home = () => {
   return (
     <div className="home-container">
-      <div className="home-title">Hi there! I'm Daniel 🇺🇸</div>
       <div className="home-content">
         <div className="home-sections">
+          <div className="home-title">Hi there! I'm Daniel 🇺🇸</div>
           <div className="home-section">
             I'm a software engineer working at <TextLink link="https://www.statefarm.com/">State Farm</TextLink>. Most
             of my time is spent between: (1) designing and developing backend services using Javascript/Python and (2)
