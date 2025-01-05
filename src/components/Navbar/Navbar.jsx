@@ -18,14 +18,11 @@ const Navbar = ({ props }) => {
         [<span>Home</span>]
       </a>
       <div className="nav-options">
-        {
-          // TODO: Add a folder with images and randomly order them, then choose an image for every nav option.
-          options.map((option) => (
-            <a className="nav-option" key={option.label} onClick={option.onClick}>
-              {option.label}
-            </a>
-          ))
-        }
+        {options.map((option) => (
+          <a className="nav-option" key={option.label} onClick={option.onClick}>
+            {option.label}
+          </a>
+        ))}
       </div>
     </div>
   );
