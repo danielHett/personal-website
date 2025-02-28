@@ -1,12 +1,10 @@
 import { useNavigate } from 'react-router';
 import './Navbar.css';
 
-const Navbar = ({ props }) => {
+const Navbar = ({ navRoutes }) => {
   let navigate = useNavigate();
 
   const options = [
-    { label: 'articles', onClick: () => navigate('/articles') },
-    { label: 'books', onClick: () => navigate('/books') },
     { label: 'resume', onClick: () => window.open('/official_resume.pdf') },
     { label: 'linkedin', onClick: () => window.open('https://www.linkedin.com/in/daniel-hettinger/') },
     { label: 'github', onClick: () => window.open('https://github.com/danielHett') },
@@ -18,9 +16,9 @@ const Navbar = ({ props }) => {
         [<span>Home</span>]
       </a>
       <div className="nav-options">
-        {options.map((option) => (
-          <a className="nav-option" key={option.label} onClick={option.onClick}>
-            {option.label}
+        {navRoutes.map(({ label, isRouter, link }) => (
+          <a className="nav-option" key={label} onClick={() => (isRouter ? useNavigate(link) : window.open(link))}>
+            {label}
           </a>
         ))}
       </div>

@@ -1,21 +1,34 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router';
-import App from './App.jsx';
+import SiteContainer from './SiteContainer.jsx';
 import Home from './pages/Home/Home.jsx';
-import Books from './pages/Books/Books.jsx';
-import ArchivedArticles from './pages/ArchivedArticles/ArchivedArticles.jsx';
-import Article from './pages/Article/Article.jsx';
+import './main.css';
+
+const navRoutes = [
+  {
+    label: 'resume',
+    isRouter: false,
+    link: '/official_resume.pdf',
+  },
+  {
+    label: 'linkedin',
+    isRouter: false,
+    link: 'https://www.linkedin.com/in/daniel-hettinger/',
+  },
+  {
+    label: 'github',
+    isRouter: false,
+    link: 'https://github.com/danielHett',
+  },
+];
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />}>
+        <Route path="/" element={<SiteContainer navRoutes={navRoutes} />}>
           <Route path="/" element={<Home />} />
-          <Route path="/articles" element={<ArchivedArticles />} />
-          <Route path="/articles/:articleKey" element={<Article />} />
-          <Route path="/books" element={<Books />} />
         </Route>
       </Routes>
     </BrowserRouter>
