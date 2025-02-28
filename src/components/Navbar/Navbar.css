@@ -1,0 +1,37 @@
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header {
+    font-size: 2.4em;
+    text-decoration: none;
+    letter-spacing: .5px;
+}
+
+.nav-header span:hover {
+    text-decoration: underline;
+    cursor: url('/space.cur'), auto;
+}
+
+.nav-options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-option {
+    font-size: 1.4em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-option:hover {
+    text-decoration: underline;
+}

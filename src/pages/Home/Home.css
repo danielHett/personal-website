@@ -1,0 +1,33 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2.5em;
+    margin-top: 100px;
+}
+
+.home-title {
+    font-size: 2.4em;
+    margin-bottom: 1em;
+}
+
+.home-portrait {
+    align-self: center;
+}
+
+.home-portrait img {
+    border-radius: 50%;
+}
+
+.home-sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.home-section {
+    font-size: 1.4em;
+}

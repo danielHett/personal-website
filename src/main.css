@@ -1,0 +1,23 @@
+html {
+    color: white;
+    background-color: #212529;
+    font-size: 62.5%;
+}
+  
+#root {
+    margin-left: 5%;
+    margin-right: 5%;
+
+    background-color: var(--gray-dark);
+
+    /* Change the font for the whole page here */
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+a:hover {
+    cursor: url('/space.cur'), auto;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
