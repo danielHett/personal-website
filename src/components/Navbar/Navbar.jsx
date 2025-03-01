@@ -17,7 +17,7 @@ const Navbar = ({ navRoutes }) => {
       </a>
       <div className="nav-options">
         {navRoutes.map(({ label, isRouter, link }) => (
-          <a className="nav-option" key={label} onClick={() => (isRouter ? useNavigate(link) : window.open(link))}>
+          <a className="nav-option" key={label} onClick={() => (isRouter ? navigate(link) : window.open(link))}>
             {label}
           </a>
         ))}
