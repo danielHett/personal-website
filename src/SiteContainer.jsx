@@ -8,7 +8,9 @@ const SiteContainer = ({ navRoutes }) => {
       <div className="navbar-container">
         <Navbar navRoutes={navRoutes} />
       </div>
-      <Outlet />
+      <div className="current-page-container">
+        <Outlet />
+      </div>
     </div>
   );
 };

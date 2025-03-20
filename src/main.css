@@ -1,10 +1,36 @@
+:root {
+    --primary-font: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --primary-text-color: white;
+    --primary-button-color: #bb86fc;
+    --primary-button-color-hovered: #cda7fd;
+    --primary-button-color-active: #bb86fc;
+
+    --secondary-button-color: #3700b3;
+    --primary-background-color: #212529;
+    --primary-background-color-10-lighter: #343b41;
+    --primary-background-color-25-lighter: #525b65;
+    --header-size: 3.5em;
+    --subheader-size: 2.5em;
+    --text-size: 1.5em;
+}
+
 html {
+    height: 100%;
+
     color: white;
-    background-color: #212529;
+    background-color: var(--primary-background-color);
     font-size: 62.5%;
+    overflow: hidden;
+}
+
+body {
+    height: 100%;
+    margin: 0;
 }
   
 #root {
+    height: 100%;
+
     margin-left: 5%;
     margin-right: 5%;
 
@@ -12,6 +38,24 @@ html {
 
     /* Change the font for the whole page here */
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.text {
+    font-size: var(--text-size);
+}
+
+.header {
+    font-size: var(--header-size);
+}
+
+.subheader {
+    font-size: var(--subheader-size);
+}
+
+.bar {
+    width: 100%;
+    height: .1em;
+    background-color: var(--primary-text-color);
 }
 
 a:hover {

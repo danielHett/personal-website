@@ -1,9 +1,19 @@
 .nav-container {
+    height: 98%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+    background-color: var(--primary-background-color-10-lighter);
+    box-sizing: border-box;
+
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .nav-header {
