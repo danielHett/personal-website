@@ -1,3 +1,4 @@
+import shuffle from 'shuffle-array';
 import images from './images.js';
 import './Gallery.css';
 
@@ -9,7 +10,7 @@ const Gallery = () => {
       </div>
       <div className="bar"></div>
       <div className="images-container">
-        {Object.entries(images).map(([name, { thumb, full }]) => {
+        {shuffle(Object.entries(images)).map(([name, { thumb, full }]) => {
           const thumb_link = `gallery/${thumb}`;
           const full_link = `gallery/${full}`;
 
