@@ -7,11 +7,13 @@ import Gallery from './pages/Gallery/Gallery.jsx';
 import './main.css';
 
 const navRoutes = [
+  /**
   {
     label: 'resume',
     isRouter: false,
     link: '/official_resume.pdf',
   },
+  */
   {
     label: 'linkedin',
     isRouter: false,
