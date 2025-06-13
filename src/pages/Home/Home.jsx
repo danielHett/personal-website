@@ -11,11 +11,9 @@ const Home = () => {
         this website <TextLink link="https://github.com/danielHett/personal-website">here</TextLink> on GitHub.
         <br />
         <br />
-        Who am I? Most people call my Daniel, some people call me Dan, and hardly anyone calls me Danny. I grew up in
-        Champaign, Illinois. .
-        <br />
-        <br />
-        Champaign is also where happened to attend the{' '}
+        Who am I? Most people call me Daniel, some people call me Dan, and hardly anyone calls me Danny. I grew up in
+        Champaign County, partly in Mahomet and partly in Champaign itself. Champaign is also where happened to attend
+        the{' '}
         <TextLink link="https://www.usnews.com/best-graduate-schools/top-science-schools/computer-science-rankings?name=University%20of%20Illinois&_sort=rank-asc">
           University of Illinois
         </TextLink>
@@ -29,13 +27,13 @@ const Home = () => {
         <TextLink link="https://en.wikipedia.org/wiki/Chicago">Chicago</TextLink> to try out being in the big city. I
         also continued working at State Farm. Most of my time there was spent between: (1) designing and developing
         backend services using TypeScript/Python and (2) writing Terraform configuration to build-out the infrastructure
-        that makes these services work. Occasionally, I also build UIs using React.
+        that made the services work. Occasionally, I also build UIs using React.
         <br />
         <br />
         After two great years in Chicago, I packed up a suitcase and flew across the Atlantic to{' '}
         <TextLink link="https://de.wikipedia.org/wiki/K%C3%B6ln">Köln</TextLink>, where I live now. I'm currently
-        studying for the German C1 exam and searching for work as a software engineer. If you're reading this, and know
-        of a job opportunity that you think I would be a good fit for, feel free to shoot me an email!
+        studying for the German C1 exam and searching for work as a software engineer. Feel free to shoot me an email if
+        you have a role that you think would be a good fit for me!
         <br />
         <br />
         Outside of studying German, there's a lot of other things that I like do. When I feel particularly motivated, I
